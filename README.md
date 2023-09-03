@@ -36,6 +36,6 @@
 
 ## 反馈
 
-邮箱: **qn.chuan@gmail.com** 和 **irisshao1008@gmail.com**
+邮箱: **ayron1929@gmail.com** 和 **irisshao1008@gmail.com**
 
 <!-- License:
