@@ -6,7 +6,7 @@ from tkcalendar import Calendar
 from difflib import SequenceMatcher
 import datetime
 
-def window_interact(csv_file, konto, kata):
+def window_interact(csv_file, konto, kata, year, month, day):
 
     def show_last_input():
         df = pd.read_csv(csv_file)
@@ -27,10 +27,6 @@ def window_interact(csv_file, konto, kata):
             top.destroy()
             return date_str
 
-        current_date = datetime.datetime.now()
-        year = current_date.year
-        month = current_date.month
-        day = current_date.day
         top = tk.Toplevel(window)
         cal = Calendar(top, selectmode='day', year=year, month=month, day=day)
         cal.pack()
