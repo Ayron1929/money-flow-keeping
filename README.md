@@ -15,6 +15,7 @@
 2. 打开终端，定位到当前文件夹的目录
 3. 创建并激活venv
    > **Mac**: 输入 `python(3) -m venv venv`  和 `source venv/bin/activate`
+   
    > **Windows**: 输入 `python(3) -m venv venv`， `(Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser) `和 `venv\Scripts\activate`
 4. 下载所有包
    >  **Mac/Windows**: 输入 `pip install -r requirements.txt`
