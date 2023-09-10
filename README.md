@@ -14,15 +14,16 @@
 1. 推荐使用Visual Studio Code，Python版本需要在3.11.0及以上
 2. 打开终端，定位到当前文件夹的目录
 3. 创建并激活venv
-   > **Mac**: 输入 `python3 -m venv venv`  和 `source venv/bin/activate`
+   > **Mac**: 输入 `python(3) -m venv venv`  和 `source venv/bin/activate`
+   > **Windows**: 输入 `python(3) -m venv venv`， `(Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser) `和 `venv\Scripts\activate`
 4. 下载所有包
-   >  **Mac**: 输入 `pip install -r requirements.txt`
+   >  **Mac/Windows**: 输入 `pip install -r requirements.txt`
 
 ## 使用说明
 
 1. 打开`run.py`，按需依照注释修改部分代码
 2. 打开终端，确保虚拟环境已经成功激活
-   > **Mac**: 输入 `python3 -m run`
+   > **Mac/Windows**: 输入 `python(3) -m run`
 
 **祝使用愉快！**
 
